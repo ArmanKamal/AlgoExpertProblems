@@ -19,3 +19,13 @@ function niceChallange(input){
 // Solution : O(4+5n) --> O(n)
 
 niceChallange(20);
+
+
+const boxes = [1,2,3,4,5]
+let sum = 0
+for(let i=0;i<boxes.length;i++){
+    for(let j=0;j<boxes.length;j++){
+        sum = sum+ (boxes[i]+boxes[j]);
+    }
+}
+console.log(sum)
